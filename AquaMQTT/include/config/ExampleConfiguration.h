@@ -6,9 +6,9 @@ namespace aquamqtt
 namespace config
 {
 
-constexpr char     ssid[]           = "ExampleSSID";
-constexpr char     psk[]            = "ExamplePSK";
-constexpr char     brokerAddr[]     = "192.168.188.1";
+constexpr char     ssid[]           = "wlan1";
+constexpr char     psk[]            = "bartthuis";
+constexpr char     brokerAddr[]     = "192.168.1.241";
 constexpr uint16_t brokerPort       = 1883;
 constexpr char     brokerClientId[] = "aquamqtt";
 // leave blank if your broker does not require a username/password
